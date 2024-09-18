@@ -41,3 +41,4 @@ vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 
 vim.keymap.set("n", "<C-n>", ":Neotree toggle left<CR>", {})
 vim.keymap.set("n", "<C-f>", ":Neotree float filesystem<CR>", {})
+vim.keymap.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>", {})
